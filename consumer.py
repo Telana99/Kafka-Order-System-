@@ -61,8 +61,8 @@ def process_order(order_data):
     """
     global total_price, order_count, running_average
     
-    # Simulate random failures (10% chance)
-    if random.random() < 0.1:
+    # Simulate random failures (50% chance)
+    if random.random() < 0.5:
         raise Exception("Simulated temporary processing failure")
     
     order_count += 1
