@@ -1,3 +1,4 @@
+
 {
   "type": "record",
   "name": "Order",
@@ -5,6 +6,8 @@
   "fields": [
     {"name": "orderid", "type": "string"},
     {"name": "product", "type": "string"},
-    {"name": "price", "type": "float"}
+    {"name": "price", "type": "float"},
+    {"name": "customer_name", "type": "string"},
+    {"name": "timestamp", "type": "long"}
   ]
 }
